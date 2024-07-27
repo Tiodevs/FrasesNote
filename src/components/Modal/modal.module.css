@@ -1,0 +1,149 @@
+.background{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.768);
+}
+
+.modal{
+    position: fixed;
+    width: 600px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #101026;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.modal h2{
+    color: #FFFF;
+    font-size: 20;
+    font-weight: 400;
+}
+
+.btnFechar{
+    background-color: #10102600;
+    border: none;
+}
+
+.btnFechar img{
+    width: 40px;
+    cursor: pointer;
+}
+
+.headerModal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.linha{
+    background-color: #b1b2b44c;
+    margin-top: 10px;
+    width: 100%;
+    height: 1px;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+
+    margin-top: 30px;
+}
+
+.itemFrase{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    background-color: #101026;
+    padding: 20px 5px;
+    height: auto;
+}
+
+.itemFrase div{
+    margin-left: 12px;
+}
+
+.itemFrase .itemFraseTitulo{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.itemFrase .itemFraseFrase{
+    font-size: 15px;
+    font-weight: 400;
+    text-align: start;
+}
+
+.btnIcons{
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.btnIcons button{
+    background-color: #10102600;
+    border: none;
+    margin-left: 10px;
+}
+
+.btnIcons button img{
+    width: 35px;
+    cursor: pointer;
+}
+
+.btnShare{
+    background-color: rgba(16, 16, 38, 0);
+    border: none;
+}
+
+@media (max-width: 625px){
+    .modal{
+        
+        width: 90%;
+        padding: 30px;
+        border-radius: 15px;
+    }
+
+    .textHeaderModal h2{
+        color: #FFFF;
+        font-size: 19px;
+    }
+
+    .itemFraseTitulo{
+        font-size: 19px;
+        font-weight: 800;
+    }
+    
+    .itemFraseFrase{
+        font-size: 15px;
+        font-weight: 300;
+    }
+    
+    .btnFechar img{
+        width: 30px;
+    }
+    
+    .item{
+        margin-top: 25px;
+    }
+    
+    
+    .btnIcons button{
+        background-color: #10102600;
+        border: none;
+        margin-left: 10px;
+    }
+    
+    .btnIcons button img{
+        width: 25px;
+    }
+}
