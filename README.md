@@ -1,6 +1,6 @@
 ![Descrição da Imagem](Capadoprojeto.png)
 
-[Link do deploy](https://frases-note-react.vercel.app/)
+[Link do deploy](https://frasesnote.vercel.app)
 
 Um site para armazenar as frases mais marcantes de uma maneira simples e bonita, com a funcionalidade de exportar em texto ou PDF.
 
